@@ -12,7 +12,7 @@ port = "5432"
 dbname = "d58vatpa1dtsd0"
 user = "scfyuhfiepbyae"
 password = "8c850870e4636a39fe12cde9dfd9111a500b6de9909c8739442f7468375fb50d"
-conText = "host={} port={} dbname={} user={} password={}"
+conText = "host={ec2-75-101-212-64.compute-1.amazonaws.com} port={5432} dbname={d58vatpa1dtsd0} user={scfyuhfiepbyae} password={8c850870e4636a39fe12cde9dfd9111a500b6de9909c8739442f7468375fb50d}"
 conText = conText.format(path,port,dbname,user,password)
 connection = psycopg2.connect(conText)
 
