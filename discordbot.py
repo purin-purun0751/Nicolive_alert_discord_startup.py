@@ -7,7 +7,7 @@ import os, psycopg2
 import json
 from bs4 import BeautifulSoup
 
-path = "C:\Program Files\PostgreSQL\12\bin"
+path = "postgres://scfyuhfiepbyae:8c850870e4636a39fe12cde9dfd9111a500b6de9909c8739442f7468375fb50d@ec2-75-101-212-64.compute-1.amazonaws.com:5432/d58vatpa1dtsd0"
 port = "5432"
 dbname = "d58vatpa1dtsd0"
 user = "scfyuhfiepbyae"
