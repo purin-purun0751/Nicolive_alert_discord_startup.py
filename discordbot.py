@@ -7,12 +7,12 @@ import os, psycopg2
 import json
 from bs4 import BeautifulSoup
 
-path = "postgres://scfyuhfiepbyae:8c850870e4636a39fe12cde9dfd9111a500b6de9909c8739442f7468375fb50d@ec2-75-101-212-64.compute-1.amazonaws.com:5432/d58vatpa1dtsd0"
+path = "ec2-75-101-212-64.compute-1.amazonaws.com"
 port = "5432"
 dbname = "d58vatpa1dtsd0"
 user = "scfyuhfiepbyae"
 password = "8c850870e4636a39fe12cde9dfd9111a500b6de9909c8739442f7468375fb50d"
-conText = "host={ec2-75-101-212-64.compute-1.amazonaws.com} port={5432} dbname={d58vatpa1dtsd0} user={scfyuhfiepbyae} password={8c850870e4636a39fe12cde9dfd9111a500b6de9909c8739442f7468375fb50d}"
+conText = "host={} port={} dbname={} user={} password={}"
 conText = conText.format(path,port,dbname,user,password)
 connection = psycopg2.connect(conText)
 
